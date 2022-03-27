@@ -63,6 +63,7 @@ public class End2End_Test_Steps  {
 
     @Then("the book is added")
     public void the_book_is_added() {
+        System.out.println("the_book_is_added");
         // Write code here that turns the phrase above into concrete actions
    }
 

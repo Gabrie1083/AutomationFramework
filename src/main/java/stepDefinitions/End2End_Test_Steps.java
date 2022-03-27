@@ -57,6 +57,7 @@ public class End2End_Test_Steps  {
 
     @When("I add a book to my reading list")
     public void i_add_a_book_to_my_reading_list() {
+        System.out.println("i_add_a_book_to_my_reading_list");
         // Write code here that turns the phrase above into concrete actions
     }
 

@@ -12,7 +12,6 @@ import pages.model.response.Book;
 import pages.model.response.Books;
 import pages.model.response.Token;
 
-
 public class End2End_Test_Steps  {
 
     private static final String USER_ID = "9b5f49ab-eea9-45f4-9d66-bcf56a531b85";
@@ -21,7 +20,6 @@ public class End2End_Test_Steps  {
     private static Response response;
     private static Token tokenResponse;
     private static Book getAllBook;
-
 
 
     @Given("I am an authorized user")
@@ -57,6 +55,7 @@ public class End2End_Test_Steps  {
 
     @When("I add a book to my reading list")
     public void i_add_a_book_to_my_reading_list() {
+        System.out.print("Test1");
         // Write code here that turns the phrase above into concrete actions
     }
 
